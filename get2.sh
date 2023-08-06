@@ -26,15 +26,15 @@ curl -X  GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'A
 sleep 5s
 
 
-cat "${dir}/bin/api0.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' > "${dir}/bin/PAVLOV-mapsRAW.txt"
+cat "${dir}/bin/api0.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d ","  > "${dir}/bin/PAVLOV-mapsRAW.txt"
 
-cat "${dir}/bin/api1.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-mapsRAW.txt"
+cat "${dir}/bin/api1.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d "," >> "${dir}/bin/PAVLOV-mapsRAW.txt"
 
-cat "${dir}/bin/api2.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-mapsRAW.txt"
+cat "${dir}/bin/api2.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d ","  >> "${dir}/bin/PAVLOV-mapsRAW.txt"
 
-cat "${dir}/bin/api3.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-mapsRAW.txt"t
+cat "${dir}/bin/api3.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d ","  >> "${dir}/bin/PAVLOV-mapsRAW.txt"t
 
-cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-mapsRAW.txt"
+cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d ","  >> "${dir}/bin/PAVLOV-mapsRAW.txt"
 
 
 echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
