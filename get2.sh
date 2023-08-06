@@ -37,7 +37,7 @@ cat "${dir}/bin/api3.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "
 cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-maps.txt"
 
 
-echo "RANK# , UGC# , URL , " > "${dir}/rankedPavlov.csv"
+echo "UGC,NAME,URL," > "${dir}/rankedPavlov.csv"
 cat "${dir}/PAVLOV-maps.txt" | tr -s ' ' '_' | sort -n  | awk -F"$" '{print $1","$2","$3","$4}' >> "${dir}/rankedPavlov.csv"
 
 
