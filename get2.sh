@@ -5,7 +5,7 @@ dir="/home/steam/code2/modio"
 # WHERE IS THE FINISHED LIST GOING
 while true
 do
-
+  sleep 1h
   filename=$( echo $(date +%m-%d-%y- )rankedPavlov.tsv )
 
   #SET GLOBAL 
@@ -53,5 +53,5 @@ do
   #  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
 
   bash "${dir}/get2.sh" | at today +1 hour
-  sleep 1h
+  
 done
