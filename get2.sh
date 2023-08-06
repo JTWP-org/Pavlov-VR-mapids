@@ -51,4 +51,4 @@ cat "${dir}/rankedPavlov.csv" | tr -d "|"  |  column -s "\," -t > table-rankedPa
 
 
 
-git commit -am "SEND IT" ; git push
+git commit -am "SEND IT" ; git push --force
