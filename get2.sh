@@ -38,7 +38,7 @@ cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "
 
 
 echo "RANK# , UGC# , URL , " > "${dir}/rankedPavlov.csv"
-cat "${dir}/PAVLOV-maps.txt" | sort -n  | awk -F"$" '{print $1", "$2", "$3", "$4}' >> "${dir}/rankedPavlov.csv"
+cat "${dir}/PAVLOV-maps.txt" | sort -n  | awk -F"$" '{print $1","$2","\"$3\"","$4}' >> "${dir}/rankedPavlov.csv"
 
 
 bash "${dir}/discord.sh" \
