@@ -52,6 +52,6 @@ do
   #  --file "${dir}/rankedPavlov.csv" \
   #  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
 
-  bash "${dir}/get2.sh" | at today +1 hour
+
   
 done
