@@ -40,7 +40,7 @@ cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "
 echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
 cat "${dir}/PAVLOV-maps.txt" | tr -d "|"  | sort -n  | awk -F"$" '{print $2","$3","$4}' >> "${dir}/rankedPavlov.csv"
 
-cat "${dir}/rankedPavlov.csv" |  column -s "\," -t > table-rankedPavlov.txt
+cat "${dir}/rankedPavlov.csv" | tr -d "|"  |  column -s "\," -t > table-rankedPavlov.txt
 
 
 
