@@ -43,7 +43,12 @@ cat "${dir}/PAVLOV-maps.txt" | tr -d "|"  | sort -n  | awk -F"$" '{print $2","$3
 cat "${dir}/rankedPavlov.csv" |  column -s "\|" -t > table-rankedPavlov.txt
 
 
+
 bash "${dir}/discord.sh" \
   --webhook-url="${HOOK}" \
   --file "${dir}/rankedPavlov.csv" \
   --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
+
+
+
+git commit -am "SEND IT" ; git push
