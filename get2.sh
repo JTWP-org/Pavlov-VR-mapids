@@ -3,7 +3,7 @@
 dir="/home/steam/code2/modio"
 
 # WHERE IS THE FINISHED LIST GOING
-filename=$( echo $(date +%m-%d-%y- )rankedPavlov.txt )
+filename=$( echo $(date +%m-%d-%y- )rankedPavlov.tsv )
 
 #SET GLOBAL 
 export filename
@@ -37,8 +37,8 @@ cat "${dir}/bin/api3.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "
 cat "${dir}/bin/api4.dump" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' >> "${dir}/bin/PAVLOV-maps.txt"
 
 
-
-cat "${dir}/PAVLOV-maps.txt"  | sort -n  | awk -F"$" '{print $1"|"$2"|"$3"|"$4}' |  column -s "\|" -t  > "${dir}/rankedPavlov.csv"
+echo "UGC|NAME|URL"
+cat "${dir}/PAVLOV-maps.txt"  | sort -n  | awk -F"$" '{print $2"|"$3"|"$4}' |  column -s "\|" -t  > "${dir}/rankedPavlov.csv"
 
 
 bash "${dir}/discord.sh" \
