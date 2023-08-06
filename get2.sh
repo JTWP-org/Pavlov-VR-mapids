@@ -44,10 +44,10 @@ cat "${dir}/rankedPavlov.csv" | tr -d "|"  |  column -s "\," -t > table-rankedPa
 
 
 
-bash "${dir}/discord.sh" \
-  --webhook-url="${HOOK}" \
-  --file "${dir}/rankedPavlov.csv" \
-  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
+#bash "${dir}/discord.sh" \
+#  --webhook-url="${HOOK}" \
+#  --file "${dir}/rankedPavlov.csv" \
+#  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
 
 
 
