@@ -1,13 +1,13 @@
 UGC         NAME                                           URL
 UGC2803758  Resurgence                                     https://mod.io/g/pavlov/m/resurgence
 UGC2820337  SnowTrail [PUSH]                               https://mod.io/g/pavlov/m/snowtrail
-UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2802847  KENNITHH's Playground                          https://mod.io/g/pavlov/m/kennithhs-playground
+UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2809826  Kino Der Toten Testing CODz                    https://mod.io/g/pavlov/m/kino-der-toten-testing
 UGC2803492  Omsk 1919                                      https://mod.io/g/pavlov/m/omsk-1919
 UGC2804502  Dust 2 CSGO                                    https://mod.io/g/pavlov/m/cn-dust-2
-UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2771448  TTT New Town                                   https://mod.io/g/pavlov/m/ttt-new-town
+UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2827985  007 Bunker                                     https://mod.io/g/pavlov/m/007-bunker
 UGC2804322  McDonalds (Supports Prophunt)                  https://mod.io/g/pavlov/m/mcdonalds
 UGC2810499  Escape From Pavlov 2                           https://mod.io/g/pavlov/m/escape-from-pavlov1
@@ -20,20 +20,21 @@ UGC2806718  BO3 Nuk3town                                   https://mod.io/g/pavl
 UGC2827215  BattleWar                                      https://mod.io/g/pavlov/m/battlewar
 UGC2817844  Ballistic                                      https://mod.io/g/pavlov/m/ballistic
 UGC2804210  MW3: Dome                                      https://mod.io/g/pavlov/m/dome
-UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
+UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2803451  MCQuest TTT                                    https://mod.io/g/pavlov/m/mcquest-ttt1
+UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
 UGC2811370  Escape The Dead                                https://mod.io/g/pavlov/m/escape-the-dead
 UGC2814848  aim_map                                        https://mod.io/g/pavlov/m/aim-map
-UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
+UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2788214  Tuscan 2022                                    https://mod.io/g/pavlov/m/t-5-1-1
-UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
+UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
 UGC2788277  Pipes                                          https://mod.io/g/pavlov/m/pipes1
+UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
 UGC2829997  007 Cradle                                     https://mod.io/g/pavlov/m/007-cradle
 UGC2814416  Prophunt 007 Casino Royale                     https://mod.io/g/pavlov/m/casino-royale
 UGC2828260  World in the sky                               https://mod.io/g/pavlov/m/world-in-the-sky
 UGC2806952  Prophunt Inc.                                  https://mod.io/g/pavlov/m/prophunt-inc
 UGC2819268  2Fort (TF2)                                    https://mod.io/g/pavlov/m/2fort
-UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2815367  Prophunt cs_office                             https://mod.io/g/pavlov/m/prophunt-cs-office
 UGC2773863  EveryItem                                      https://mod.io/g/pavlov/m/everyitem1
 UGC2802957  Black Ops 1 Gun Tests                          https://mod.io/g/pavlov/m/bo1guntest
@@ -60,7 +61,6 @@ UGC2814661  Prophunt Clue                                  https://mod.io/g/pavl
 UGC2829895  NightZone                                      https://mod.io/g/pavlov/m/nightzone
 UGC2820283  Fluffeh's Debug and logic testing environment  https://mod.io/g/pavlov/m/fluffehtesting
 UGC2808848  Anvil - Day                                    https://mod.io/g/pavlov/m/anvil-day
-UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2810348  Stash House                                    https://mod.io/g/pavlov/m/stash-house3
 UGC2820338  Halo Guns Testing Map                          https://mod.io/g/pavlov/m/halo-guns-testing-map
 UGC2817792  Suijin (TF2)                                   https://mod.io/g/pavlov/m/suijin-tf2
@@ -101,13 +101,13 @@ UGC2816097  base battle                                    https://mod.io/g/pavl
 UGC2826705  Prophunt Sewers                                https://mod.io/g/pavlov/m/sewers
 UGC2803758  Resurgence                                     https://mod.io/g/pavlov/m/resurgence
 UGC2820337  SnowTrail [PUSH]                               https://mod.io/g/pavlov/m/snowtrail
-UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2802847  KENNITHH's Playground                          https://mod.io/g/pavlov/m/kennithhs-playground
+UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2809826  Kino Der Toten Testing CODz                    https://mod.io/g/pavlov/m/kino-der-toten-testing
 UGC2803492  Omsk 1919                                      https://mod.io/g/pavlov/m/omsk-1919
 UGC2804502  Dust 2 CSGO                                    https://mod.io/g/pavlov/m/cn-dust-2
-UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2771448  TTT New Town                                   https://mod.io/g/pavlov/m/ttt-new-town
+UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2827985  007 Bunker                                     https://mod.io/g/pavlov/m/007-bunker
 UGC2804322  McDonalds (Supports Prophunt)                  https://mod.io/g/pavlov/m/mcdonalds
 UGC2810499  Escape From Pavlov 2                           https://mod.io/g/pavlov/m/escape-from-pavlov1
@@ -120,20 +120,21 @@ UGC2806718  BO3 Nuk3town                                   https://mod.io/g/pavl
 UGC2827215  BattleWar                                      https://mod.io/g/pavlov/m/battlewar
 UGC2817844  Ballistic                                      https://mod.io/g/pavlov/m/ballistic
 UGC2804210  MW3: Dome                                      https://mod.io/g/pavlov/m/dome
-UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
+UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2803451  MCQuest TTT                                    https://mod.io/g/pavlov/m/mcquest-ttt1
+UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
 UGC2811370  Escape The Dead                                https://mod.io/g/pavlov/m/escape-the-dead
 UGC2814848  aim_map                                        https://mod.io/g/pavlov/m/aim-map
-UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
+UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2788214  Tuscan 2022                                    https://mod.io/g/pavlov/m/t-5-1-1
-UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
+UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
 UGC2788277  Pipes                                          https://mod.io/g/pavlov/m/pipes1
+UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
 UGC2829997  007 Cradle                                     https://mod.io/g/pavlov/m/007-cradle
 UGC2814416  Prophunt 007 Casino Royale                     https://mod.io/g/pavlov/m/casino-royale
 UGC2828260  World in the sky                               https://mod.io/g/pavlov/m/world-in-the-sky
 UGC2806952  Prophunt Inc.                                  https://mod.io/g/pavlov/m/prophunt-inc
 UGC2819268  2Fort (TF2)                                    https://mod.io/g/pavlov/m/2fort
-UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2815367  Prophunt cs_office                             https://mod.io/g/pavlov/m/prophunt-cs-office
 UGC2773863  EveryItem                                      https://mod.io/g/pavlov/m/everyitem1
 UGC2802957  Black Ops 1 Gun Tests                          https://mod.io/g/pavlov/m/bo1guntest
@@ -160,7 +161,6 @@ UGC2814661  Prophunt Clue                                  https://mod.io/g/pavl
 UGC2829895  NightZone                                      https://mod.io/g/pavlov/m/nightzone
 UGC2820283  Fluffeh's Debug and logic testing environment  https://mod.io/g/pavlov/m/fluffehtesting
 UGC2808848  Anvil - Day                                    https://mod.io/g/pavlov/m/anvil-day
-UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2810348  Stash House                                    https://mod.io/g/pavlov/m/stash-house3
 UGC2820338  Halo Guns Testing Map                          https://mod.io/g/pavlov/m/halo-guns-testing-map
 UGC2817792  Suijin (TF2)                                   https://mod.io/g/pavlov/m/suijin-tf2
@@ -201,13 +201,13 @@ UGC2816097  base battle                                    https://mod.io/g/pavl
 UGC2826705  Prophunt Sewers                                https://mod.io/g/pavlov/m/sewers
 UGC2803758  Resurgence                                     https://mod.io/g/pavlov/m/resurgence
 UGC2820337  SnowTrail [PUSH]                               https://mod.io/g/pavlov/m/snowtrail
-UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2802847  KENNITHH's Playground                          https://mod.io/g/pavlov/m/kennithhs-playground
+UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2809826  Kino Der Toten Testing CODz                    https://mod.io/g/pavlov/m/kino-der-toten-testing
 UGC2803492  Omsk 1919                                      https://mod.io/g/pavlov/m/omsk-1919
 UGC2804502  Dust 2 CSGO                                    https://mod.io/g/pavlov/m/cn-dust-2
-UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2771448  TTT New Town                                   https://mod.io/g/pavlov/m/ttt-new-town
+UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2827985  007 Bunker                                     https://mod.io/g/pavlov/m/007-bunker
 UGC2804322  McDonalds (Supports Prophunt)                  https://mod.io/g/pavlov/m/mcdonalds
 UGC2810499  Escape From Pavlov 2                           https://mod.io/g/pavlov/m/escape-from-pavlov1
@@ -220,20 +220,21 @@ UGC2806718  BO3 Nuk3town                                   https://mod.io/g/pavl
 UGC2827215  BattleWar                                      https://mod.io/g/pavlov/m/battlewar
 UGC2817844  Ballistic                                      https://mod.io/g/pavlov/m/ballistic
 UGC2804210  MW3: Dome                                      https://mod.io/g/pavlov/m/dome
-UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
+UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2803451  MCQuest TTT                                    https://mod.io/g/pavlov/m/mcquest-ttt1
+UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
 UGC2811370  Escape The Dead                                https://mod.io/g/pavlov/m/escape-the-dead
 UGC2814848  aim_map                                        https://mod.io/g/pavlov/m/aim-map
-UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
+UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2788214  Tuscan 2022                                    https://mod.io/g/pavlov/m/t-5-1-1
-UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
+UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
 UGC2788277  Pipes                                          https://mod.io/g/pavlov/m/pipes1
+UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
 UGC2829997  007 Cradle                                     https://mod.io/g/pavlov/m/007-cradle
 UGC2814416  Prophunt 007 Casino Royale                     https://mod.io/g/pavlov/m/casino-royale
 UGC2828260  World in the sky                               https://mod.io/g/pavlov/m/world-in-the-sky
 UGC2806952  Prophunt Inc.                                  https://mod.io/g/pavlov/m/prophunt-inc
 UGC2819268  2Fort (TF2)                                    https://mod.io/g/pavlov/m/2fort
-UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2815367  Prophunt cs_office                             https://mod.io/g/pavlov/m/prophunt-cs-office
 UGC2773863  EveryItem                                      https://mod.io/g/pavlov/m/everyitem1
 UGC2802957  Black Ops 1 Gun Tests                          https://mod.io/g/pavlov/m/bo1guntest
@@ -260,7 +261,6 @@ UGC2814661  Prophunt Clue                                  https://mod.io/g/pavl
 UGC2829895  NightZone                                      https://mod.io/g/pavlov/m/nightzone
 UGC2820283  Fluffeh's Debug and logic testing environment  https://mod.io/g/pavlov/m/fluffehtesting
 UGC2808848  Anvil - Day                                    https://mod.io/g/pavlov/m/anvil-day
-UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2810348  Stash House                                    https://mod.io/g/pavlov/m/stash-house3
 UGC2820338  Halo Guns Testing Map                          https://mod.io/g/pavlov/m/halo-guns-testing-map
 UGC2817792  Suijin (TF2)                                   https://mod.io/g/pavlov/m/suijin-tf2
@@ -301,13 +301,13 @@ UGC2816097  base battle                                    https://mod.io/g/pavl
 UGC2826705  Prophunt Sewers                                https://mod.io/g/pavlov/m/sewers
 UGC2803758  Resurgence                                     https://mod.io/g/pavlov/m/resurgence
 UGC2820337  SnowTrail [PUSH]                               https://mod.io/g/pavlov/m/snowtrail
-UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2802847  KENNITHH's Playground                          https://mod.io/g/pavlov/m/kennithhs-playground
+UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2809826  Kino Der Toten Testing CODz                    https://mod.io/g/pavlov/m/kino-der-toten-testing
 UGC2803492  Omsk 1919                                      https://mod.io/g/pavlov/m/omsk-1919
 UGC2804502  Dust 2 CSGO                                    https://mod.io/g/pavlov/m/cn-dust-2
-UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2771448  TTT New Town                                   https://mod.io/g/pavlov/m/ttt-new-town
+UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2827985  007 Bunker                                     https://mod.io/g/pavlov/m/007-bunker
 UGC2804322  McDonalds (Supports Prophunt)                  https://mod.io/g/pavlov/m/mcdonalds
 UGC2810499  Escape From Pavlov 2                           https://mod.io/g/pavlov/m/escape-from-pavlov1
@@ -320,20 +320,21 @@ UGC2806718  BO3 Nuk3town                                   https://mod.io/g/pavl
 UGC2827215  BattleWar                                      https://mod.io/g/pavlov/m/battlewar
 UGC2817844  Ballistic                                      https://mod.io/g/pavlov/m/ballistic
 UGC2804210  MW3: Dome                                      https://mod.io/g/pavlov/m/dome
-UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
+UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2803451  MCQuest TTT                                    https://mod.io/g/pavlov/m/mcquest-ttt1
+UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
 UGC2811370  Escape The Dead                                https://mod.io/g/pavlov/m/escape-the-dead
 UGC2814848  aim_map                                        https://mod.io/g/pavlov/m/aim-map
-UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
+UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2788214  Tuscan 2022                                    https://mod.io/g/pavlov/m/t-5-1-1
-UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
+UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
 UGC2788277  Pipes                                          https://mod.io/g/pavlov/m/pipes1
+UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
 UGC2829997  007 Cradle                                     https://mod.io/g/pavlov/m/007-cradle
 UGC2814416  Prophunt 007 Casino Royale                     https://mod.io/g/pavlov/m/casino-royale
 UGC2828260  World in the sky                               https://mod.io/g/pavlov/m/world-in-the-sky
 UGC2806952  Prophunt Inc.                                  https://mod.io/g/pavlov/m/prophunt-inc
 UGC2819268  2Fort (TF2)                                    https://mod.io/g/pavlov/m/2fort
-UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2815367  Prophunt cs_office                             https://mod.io/g/pavlov/m/prophunt-cs-office
 UGC2773863  EveryItem                                      https://mod.io/g/pavlov/m/everyitem1
 UGC2802957  Black Ops 1 Gun Tests                          https://mod.io/g/pavlov/m/bo1guntest
@@ -360,7 +361,6 @@ UGC2814661  Prophunt Clue                                  https://mod.io/g/pavl
 UGC2829895  NightZone                                      https://mod.io/g/pavlov/m/nightzone
 UGC2820283  Fluffeh's Debug and logic testing environment  https://mod.io/g/pavlov/m/fluffehtesting
 UGC2808848  Anvil - Day                                    https://mod.io/g/pavlov/m/anvil-day
-UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2810348  Stash House                                    https://mod.io/g/pavlov/m/stash-house3
 UGC2820338  Halo Guns Testing Map                          https://mod.io/g/pavlov/m/halo-guns-testing-map
 UGC2817792  Suijin (TF2)                                   https://mod.io/g/pavlov/m/suijin-tf2
@@ -401,13 +401,13 @@ UGC2816097  base battle                                    https://mod.io/g/pavl
 UGC2826705  Prophunt Sewers                                https://mod.io/g/pavlov/m/sewers
 UGC2803758  Resurgence                                     https://mod.io/g/pavlov/m/resurgence
 UGC2820337  SnowTrail [PUSH]                               https://mod.io/g/pavlov/m/snowtrail
-UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2802847  KENNITHH's Playground                          https://mod.io/g/pavlov/m/kennithhs-playground
+UGC2773760  Gravity                                        https://mod.io/g/pavlov/m/gravity1
 UGC2809826  Kino Der Toten Testing CODz                    https://mod.io/g/pavlov/m/kino-der-toten-testing
 UGC2803492  Omsk 1919                                      https://mod.io/g/pavlov/m/omsk-1919
 UGC2804502  Dust 2 CSGO                                    https://mod.io/g/pavlov/m/cn-dust-2
-UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2771448  TTT New Town                                   https://mod.io/g/pavlov/m/ttt-new-town
+UGC2813799  MC City TTT                                    https://mod.io/g/pavlov/m/mc-city-ttt
 UGC2827985  007 Bunker                                     https://mod.io/g/pavlov/m/007-bunker
 UGC2804322  McDonalds (Supports Prophunt)                  https://mod.io/g/pavlov/m/mcdonalds
 UGC2810499  Escape From Pavlov 2                           https://mod.io/g/pavlov/m/escape-from-pavlov1
@@ -420,20 +420,21 @@ UGC2806718  BO3 Nuk3town                                   https://mod.io/g/pavl
 UGC2827215  BattleWar                                      https://mod.io/g/pavlov/m/battlewar
 UGC2817844  Ballistic                                      https://mod.io/g/pavlov/m/ballistic
 UGC2804210  MW3: Dome                                      https://mod.io/g/pavlov/m/dome
-UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
+UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2803451  MCQuest TTT                                    https://mod.io/g/pavlov/m/mcquest-ttt1
+UGC2790869  PavZ                                           https://mod.io/g/pavlov/m/pavz
 UGC2811370  Escape The Dead                                https://mod.io/g/pavlov/m/escape-the-dead
 UGC2814848  aim_map                                        https://mod.io/g/pavlov/m/aim-map
-UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
+UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2788214  Tuscan 2022                                    https://mod.io/g/pavlov/m/t-5-1-1
-UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
+UGC2815002  Prophunt Inc 3: CQC                            https://mod.io/g/pavlov/m/prophunt-inc-3-cqc
 UGC2788277  Pipes                                          https://mod.io/g/pavlov/m/pipes1
+UGC2810539  Prophunt Restaurant                            https://mod.io/g/pavlov/m/prophunt-restaurant
 UGC2829997  007 Cradle                                     https://mod.io/g/pavlov/m/007-cradle
 UGC2814416  Prophunt 007 Casino Royale                     https://mod.io/g/pavlov/m/casino-royale
 UGC2828260  World in the sky                               https://mod.io/g/pavlov/m/world-in-the-sky
 UGC2806952  Prophunt Inc.                                  https://mod.io/g/pavlov/m/prophunt-inc
 UGC2819268  2Fort (TF2)                                    https://mod.io/g/pavlov/m/2fort
-UGC2812878  Prophunt Burger King                           https://mod.io/g/pavlov/m/burger-king
 UGC2815367  Prophunt cs_office                             https://mod.io/g/pavlov/m/prophunt-cs-office
 UGC2773863  EveryItem                                      https://mod.io/g/pavlov/m/everyitem1
 UGC2802957  Black Ops 1 Gun Tests                          https://mod.io/g/pavlov/m/bo1guntest
@@ -460,7 +461,6 @@ UGC2814661  Prophunt Clue                                  https://mod.io/g/pavl
 UGC2829895  NightZone                                      https://mod.io/g/pavlov/m/nightzone
 UGC2820283  Fluffeh's Debug and logic testing environment  https://mod.io/g/pavlov/m/fluffehtesting
 UGC2808848  Anvil - Day                                    https://mod.io/g/pavlov/m/anvil-day
-UGC2829349  Aztec (CS:GO)                                  https://mod.io/g/pavlov/m/aztec
 UGC2810348  Stash House                                    https://mod.io/g/pavlov/m/stash-house3
 UGC2820338  Halo Guns Testing Map                          https://mod.io/g/pavlov/m/halo-guns-testing-map
 UGC2817792  Suijin (TF2)                                   https://mod.io/g/pavlov/m/suijin-tf2
