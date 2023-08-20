@@ -5,7 +5,7 @@ dir="/home/steam/code2/modio"
 # WHERE IS THE FINISHED LIST GOING
 while true
 do
-  sleep 1h
+  #sleep 1h
   filename=$( echo $(date +%m-%d-%y- )rankedPavlov.tsv )
 
   #SET GLOBAL 
@@ -18,15 +18,15 @@ do
 
   cd $(echo $dir)
 
-  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"   -H 'Accept: application/json' > "${dir}/bin/api0.dump"
+  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"   -H 'Accept: application/json' -H 'linux-Modio-Platform' > "${dir}/bin/api0.dump"
   sleep 5s
-  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' > "${dir}/bin/api1.dump"
+  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' -H 'linux-Modio-Platform' > "${dir}/bin/api1.dump"
   sleep 5s
-  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' > "${dir}/bin/api2.dump"
+  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' -H 'linux-Modio-Platform' > "${dir}/bin/api2.dump"
   sleep 5s
-  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' > "${dir}/bin/api3.dump"
+  curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' -H 'linux-Modio-Platform' > "${dir}/bin/api3.dump"
   sleep 5s
-  curl -X  GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' > "${dir}/bin/api4.dump"
+  curl -X  GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"  -H 'Accept: application/json' -H 'linux-Modio-Platform' > "${dir}/bin/api4.dump"
   sleep 5s
 
   echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
