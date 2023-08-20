@@ -19,31 +19,31 @@ do
   cd $(echo $dir)
 
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"     -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"' | grep windows | jq . > "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=100"   -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"'  | grep windows | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=200"   -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"'  | grep windows | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=300"   -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"'  | grep windows | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=400"   -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"'  | grep windows | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=500"   -H 'Accept: application/json' -H 'X-Modio-Platform: windows'  |  jq -c '.data[], "\\n"'  | grep windows | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"   -H 'Accept: application/json' -H 'X-Modio-Platform: linux'  |  jq -c '.data[], "\\n"' | grep linux | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=100"   -H 'Accept: application/json' -H 'X-Modio-Platform: linux'  |  jq -c '.data[], "\\n"'  | grep linux | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=200"   -H 'Accept: application/json' -H 'X-Modio-Platform: linux'  |  jq -c '.data[], "\\n"'  | grep linux | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=300"   -H 'Accept: application/json' -H 'X-Modio-Platform: linux'  |  jq -c '.data[], "\\n"'  | grep linux | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=400"   -H 'Accept: application/json' -H 'X-Modio-Platform: linux'  |  jq -c '.data[], "\\n"'  | grep linux | jq . >> "${dir}/bin/api0.dump"
-  sleep 3s
+  sleep 5s
 
 
 echo "" > "${dir}/bin/sorted3.json"
-cat "${dir}/bin/api0.dump" | sort | uniq | jq -c  >> "${dir}/bin/sorted3.json"
+cat "${dir}/bin/api0.dump" | sort -u | uniq | jq -c  >> "${dir}/bin/sorted3.json"
 
 
   echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
