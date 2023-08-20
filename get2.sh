@@ -42,8 +42,8 @@ do
   sleep 3s
 
 
-
-cat "${dir}/bin/api0.dump" | sort | uniq > "${dir}/bin/sorted3.json"
+echo "" > "${dir}/bin/sorted3.json"
+cat "${dir}/bin/api0.dump" | sort | uniq | jq -c  >> "${dir}/bin/sorted3.json"
 
 
   echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
