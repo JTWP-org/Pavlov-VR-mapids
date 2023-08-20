@@ -5,7 +5,7 @@ dir="/home/steam/code2/modio"
 # WHERE IS THE FINISHED LIST GOING
 while true
 do
-  #sleep 1h
+
   filename=$( echo $(date +%m-%d-%y- )rankedPavlov.tsv )
 
   #SET GLOBAL 
@@ -42,16 +42,16 @@ do
   sleep 5s
 
 
-echo "" > "${dir}/bin/sorted3.json"
-cat "${dir}/bin/api0.dump" | sort -u | uniq | jq -c  >> "${dir}/bin/sorted3.json"
+echo "" > "sorted3.json"
+cat "${dir}/bin/api0.dump" | sort -u | uniq | jq -c  >> "sorted3.json"
 
 
   echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
 
-  cat "${dir}/bin/sorted3.json" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4}' >> "${dir}/rankedPavlov.csv"
+  cat "sorted3.json" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4}' >> "${dir}/rankedPavlov.csv"
 
 
-  cat "${dir}/rankedPavlov.csv" |  column -s "," -t > table-rankedPavlov.txt
+  cat "sorted3.json" |  column -s "," -t > table-rankedPavlov.txt
 
 
   git add * ; git commit -m "Send it $(date)" ; git push 
@@ -61,6 +61,6 @@ cat "${dir}/bin/api0.dump" | sort -u | uniq | jq -c  >> "${dir}/bin/sorted3.json
   #  --file "${dir}/rankedPavlov.csv" \
   #  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
 
-
+  sleep 1h
   
 done
