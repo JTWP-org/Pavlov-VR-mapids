@@ -42,8 +42,8 @@ do
   sleep 5s
 
 
-echo "" > "sorted3.json"
-cat "${dir}/bin/api0.dump" | sort -u | uniq | jq -c  >> "sorted3.json"
+  echo "" > "sorted3.json"
+  cat /home/steam/code2/modio/bin/api0.dump | sort -u | uniq | jq -c  >> "sorted3.json"
 
 
   echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
