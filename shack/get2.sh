@@ -1,6 +1,7 @@
 #!/bin/bash
 # SET THIS TO WHERE SCRIPT IS 
-dir="/home/steam/code2/modio"
+
+dir="/home/steam/code2/modio/shack"
 
   source ".vault"
 
@@ -12,25 +13,8 @@ touch "${dir}/bin/data.json"
   curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=100"     -H 'Accept: application/json' -H 'X-Modio-Platform: Oculus'  >> "${dir}/bin/data.json"  
   sleep 5s
 
-  cat bin/data.json | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4}' > shackMaps.json
+  cat "${dir}/bin/data.json"   | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", "$", .submitted_by.username,"$ ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4"}' > shackMaps.json
 
 
 
-  echo "UGC,NAME,URL" > "${dir}/rankedPavlov.csv"
-
-  cat "sorted3.json" | jq -j ' .data[]| .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", .submitted_by.username," ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", "\n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4}' >> "${dir}/rankedPavlov.csv"
-
-
-  cat "sorted3.json" |  column -s "," -t > table-rankedPavlov.txt
-
-
-  git add * ; git commit -m "Send it $(date)" ; git push 
-
-  #bash "${dir}/discord.sh" \
-  #  --webhook-url="${HOOK}" \
-  #  --file "${dir}/rankedPavlov.csv" \
-  #  --text "todays pavlov maps by most downloads in the day \\n list rebuilt every hour "
-
-  sleep 1h
   
-done
