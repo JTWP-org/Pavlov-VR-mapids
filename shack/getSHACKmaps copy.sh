@@ -1,5 +1,5 @@
 #!/bin/bash
-# SET THIS TO WHERE SCRIPT IS 
+
 
 
 
