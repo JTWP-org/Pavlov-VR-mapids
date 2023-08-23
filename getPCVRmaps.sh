@@ -1,11 +1,12 @@
 #!/bin/bash
-source "${dir}/.vault"
+source ".vault"
 
 
 
 if [ -z "$dir" ]
 then
     echo dir varbale is empty enter the scripts location into the varbale dir in .vault file or script wont work 
+    EXIT
 fi
  
 touch "${dir}/bin/data.json"

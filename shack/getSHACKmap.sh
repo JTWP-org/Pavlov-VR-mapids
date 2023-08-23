@@ -3,9 +3,13 @@
 
 
 
-source "${dir}/shack/.vault"
+source ".vault"
 
- 
+ if [ -z "$dir" ]
+then
+    echo dir varbale is empty enter the scripts location into the varbale dir in .vault file or script wont work 
+    EXIT
+fi
 
 
 curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"     -H 'Accept: application/json' -H 'X-Modio-Platform: Oculus' > "${dir}/shack/bin/data.json"  
