@@ -6,7 +6,7 @@
 source "${dir}/shack/.vault"
 
  
-touch "${dir}/shack/bin/data.json"
+
 
 curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"     -H 'Accept: application/json' -H 'X-Modio-Platform: Oculus' > "${dir}/shack/bin/data.json"  
 sleep 5s
