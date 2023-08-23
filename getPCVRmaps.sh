@@ -50,3 +50,6 @@ sleep 5s
 cat "/home/steam/code2/modio/bin/data.json"   | jq -j ' .data[]| "$",.stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", "$", .submitted_by.username,"$ ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $2","$3","$4","$5}' | uniq  > /home/steam/code2/modio/buuiltLIST-PCVR.csv
 
 
+    git add .
+    git commit -a -m "AUTO PUSH just updating map list"
+    git push
