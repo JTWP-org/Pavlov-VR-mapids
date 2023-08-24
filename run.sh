@@ -15,4 +15,6 @@ then
 fi
  
 bash "${dir}/getPCVRmaps.sh"
+cp .vault shack/.vault
 bash "${dir}/shack/getSHACKmap.sh"
+rm shack/.vault
