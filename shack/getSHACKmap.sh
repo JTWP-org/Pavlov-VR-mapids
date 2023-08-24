@@ -3,7 +3,7 @@
 
 
 
-source "${dir}\.vault"
+source $(echo "${dir}/.vault")
 
  if [ -z "$dir" ]
 then
