@@ -1,6 +1,7 @@
 #!/bin/bash
 source ".vault"
 
+cp .vault shack/.vault
 
 if test -f "$FILE"; then
     echo "$FILE exists."
