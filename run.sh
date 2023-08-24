@@ -2,6 +2,10 @@
 source ".vault"
 
 
+if test -f "$FILE"; then
+    echo "$FILE exists."
+fi
+
 
 if [ -z "$dir" ]
 then
