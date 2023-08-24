@@ -4,7 +4,7 @@
 
 
 source $(echo "${dir}/.vault")
-
+echo $DIR
  if [ -z "$dir" ]
 then
     echo "DIR VAR FOUND . "
