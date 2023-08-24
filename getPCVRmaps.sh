@@ -50,7 +50,7 @@ curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=800"     -
 sleep 5s
 
 
-cat "${dir}/bin/data.json"   | jq -j ' .data[]|| | jq -j ' .data[]| "$", .stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profi  tr -d "|" | tr -d ","  | sort -n   | awk -F"$" '{print $3","$4","$5","$6}' | uniq | sort -n > ${dir}/buuiltLIST-PCVR.csv
+cat "${dir}/bin/data.json"    | jq -j ' .data[]| "$",.stats.popularity_rank_position "$UGC", .id,"$", .name,"$", .profi  tr -d "|" | tr -d ","  | sort -n   | awk -F"$" '{print $3","$4","$5","$6}' | uniq | sort -n > ${dir}/buuiltLIST-PCVR.csv
 
 
     git add .
