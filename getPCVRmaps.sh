@@ -1,10 +1,10 @@
 #!/bin/bash
-source "vault"
+source "${dir}/vault"
 
 if [ -z "$dir" ]
 then
     echo dir varbale is empty enter the scripts location into the varbale dir in .vault file or script wont work 
-    EXIT
+    exit 0
 fi
  
 
