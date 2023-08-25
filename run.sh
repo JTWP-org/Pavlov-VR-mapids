@@ -1,6 +1,6 @@
 #!/bin/bash
 source "vault"
-
+dir="/home/steam/code2/modio"
 
 if [ -z "$dir" ]
 then
