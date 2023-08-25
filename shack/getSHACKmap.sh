@@ -15,7 +15,7 @@ fi
 
 
 
-cat "${dir}/shack/bin/data.json"   | jq -j ' .data[]| "$ ",.stats.popularity_rank_position, "$ UGC", .id,"$ ", .name,"$", "$ ", .profile_url, "$ ", .submitted_by.username, "$ ", .submitted_by.profile_url," $", .submitted_by.avatar.original, "$  DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $3","$4","$5","$6}' | uniq | sort -n  > "${dir}/buuiltLIST-SHACK.csv"
+cat "${dir}/shack/bin/data.json"   | jq -j ' .data[]| "$ ",.stats.popularity_rank_position, "$ UGC", .id,"$ ", .name,"$", .profile_url, "$ ", .submitted_by.username, "$ ", .submitted_by.profile_url," $", .submitted_by.avatar.original, "$  DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $3","$4","$5","$6}' | uniq | sort -n  > "${dir}/buuiltLIST-SHACK.csv"
 
 
 
