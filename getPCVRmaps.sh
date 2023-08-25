@@ -13,7 +13,7 @@ touch "${dir}/bin/data.json"
 
 
 
-cat "${dir}/bin/data.json"   | jq -j ' .data[]| "$",.stats.popularity_rank_position, "$UGC", .id,"$", .name,"$", .profile_url,"$", "$", .submitted_by.username,"$ ", .submitted_by.profile_url," ", .submitted_by.avatar.original, " DOWNLOADS TODAY; ", .stats.downloads_today," TOTAL; ", .stats.downloads_total," RANK; ", " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $3","$4","$5","$6}' | uniq | sort -n > ${dir}/buuiltLIST-PCVR.csv
+cat "${dir}/bin/data.json"   | jq -j ' .data[]| "$ ",.stats.popularity_rank_position, "$ UGC", .id,"$ ", .name,"$", .profile_url, "$ ", .submitted_by.username, "$ ", .submitted_by.profile_url," $", .submitted_by.avatar.original, "$  DOWNLOADS TODAY/TOTAL; ", .stats.downloads_today,"/", .stats.downloads_total, " \n"  ' | tr -d "|" | tr -d ","  | sort -n  | awk -F"$" '{print $3","$4","$5","$6 " "$9}' | uniq | sort -n > ${dir}/buuiltLIST-PCVR.csv
 
 
     git add .
