@@ -1,10 +1,7 @@
 #!/bin/bash
+source vault
 
 
-
-
-source tmp
-echo $dir
  if [ -z "$dir" ]
 then
     echo dir  is empty enter the scripts location into the varbale dir in .vault file or script wont work 

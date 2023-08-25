@@ -1,7 +1,5 @@
 #!/bin/bash
-source "tmp"
-
-
+source "vault"
 
 if [ -z "$dir" ]
 then

@@ -1,8 +1,6 @@
 #!/bin/bash
-source "shack/tmp"
+source "vault"
 
-cp .vault shack/tmp
-cp .vault tmp
 
 if [ -z "$dir" ]
 then
@@ -11,7 +9,4 @@ then
 fi
  
 bash "${dir}/getPCVRmaps.sh"
-cp .vault shack/.vault
 bash "${dir}/shack/getSHACKmap.sh"
-rm shack/tmp
-rm tmp
