@@ -1,5 +1,5 @@
 #!/bin/bash
-source "${dir}/vault"
+source "/home/steam/code2/modio/vault"
 
 if [ -z "$dir" ]
 then
