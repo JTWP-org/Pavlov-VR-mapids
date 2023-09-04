@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir="/home/steam/code2/modio"
+cd "/home/steam/code2/modio"
 
 if [ -z "$dir" ]
 then
