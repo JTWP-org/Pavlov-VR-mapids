@@ -6,7 +6,7 @@ URL="${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset="
 
 mods=()
 for offset in {0..1000..100}; do
-  api_response=$(curl -s -X GET "${URL}${offset}" -H 'Accept: application/json' -H 'X-Modio-Platform: Oculus')
+  api_response=$(curl -s -X GET "${URL}${offset}" -H 'Accept: application/json' -H 'X-Modio-Platform: platforms=oculus' -H 'X-Modio-map'    )
   
   if [ -z "$api_response" ]; then
     echo "Error: API response is empty for offset $offset"
