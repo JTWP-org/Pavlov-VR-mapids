@@ -1,6 +1,9 @@
 #!/bin/bash
-source /home/steam/code2/modio/vault
+APIKEY0="https://u-8414132.modapi.io"
+APIKEY1="518aeba55ed18ca8db5de89b1cc160f3"
 
+
+dir="/home/steam/code2/modio"
 
 
 
