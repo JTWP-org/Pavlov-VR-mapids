@@ -1,12 +1,11 @@
 #!/bin/bash
-source "/home/steam/code2/modio/vault"
+APIKEY0="https://u-8414132.modapi.io"
+APIKEY1="518aeba55ed18ca8db5de89b1cc160f3"
 
-if [ -z "$dir" ]
-then
-    echo dir varbale is empty enter the scripts location into the varbale dir in .vault file or script wont work 
-    exit 0
-fi
- 
+
+dir="/home/steam/code2/modio"
+
+
 
 
 curl -X GET "${APIKEY0}/v1/games/3959/mods?api_key=${APIKEY1}&_offset=0"     -H 'Accept: application/json' -H 'X-Modio-Platform: Windows' > "${dir}/bin/data.json"  
